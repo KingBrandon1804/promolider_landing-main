@@ -1,0 +1,189 @@
+/* Colores de fondo promolíder */
+.bg-primary-pl  {
+  background-color: #1ae800;
+  
+}
+
+.bg-secondary-pl  {
+  background-color: #35424a;
+}
+
+.bg-terciary-pl  {
+  background-color: #131b1e;
+  ;
+}
+
+.bg-aux-pl {
+  background-color: #e6e6e6;
+}
+
+/* Colores de texto promolíder */
+.text-primary-pl {
+  color: #1ae800;
+}
+
+.text-secondary-pl {
+  color: #35424a;
+}
+
+.text-terciary-pl p {
+  color: #131b1e;
+  
+}
+
+nav {
+  padding: 0px 50px;
+  font-family: Raleway_Bold;
+  z-index: 1;
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url("../assets/fonts/raleway/Raleway-Regular.ttf");
+}
+@font-face{
+  font-family: Raleway_Bold;
+  src:url("../assets/fonts/raleway/Raleway-Bold.ttf")
+}
+body{
+  font-family: Raleway;
+  overflow-x: hidden;
+}
+
+/* Estilos seccion presentacion */
+#presentacion {
+  padding-top: 80px;
+  padding-left: 50px;
+
+}
+#presentacion .row{
+  width: 100%;
+}
+#presentacion .row .col p {
+  font-size: 30px;
+}
+
+#presentacion .row .col h1 {
+  font-size: 75px;
+  font-family: Raleway_Bold;
+
+}
+#presentacion .persona {
+  width: 670px;
+  height: 400px;
+  float: right;
+  position: absolute ;
+  bottom: 60px;
+  right: 45px;
+  z-index: 2;
+}
+#presentacion .row .col .btn{
+  font-family: Raleway_Bold;
+  font-size: 20px;
+  padding:10px 30px;
+  margin-top: 15px;
+  margin-bottom: 36px;
+}
+#presentacion .flecha {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+#presentacion .circulo {
+  width: 1000px;
+  height: 1000px;
+  border-radius: 500px;
+  position: absolute;
+  right: -450px;
+  top: -370px; 
+}
+/* Estilos de la seccion fortalezas*/
+#fortalezas{
+  height: 550px;
+}
+
+#fortalezas h1{
+  text-align: center;
+}
+
+/* Estilos seccion aula virtual*/
+#aulav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 100px 50px;
+  position: relative;
+}
+
+.aula-titulos {
+  position: absolute;
+  top: 70px;
+  left: 80px;
+}
+
+.aula-titulos h2 {
+  font-family: Raleway_Bold;
+  font-size: 60px;
+  color: black;
+}
+
+.aula-titulos h3 {
+  font-size: 35px;
+}
+
+/* Estilos seccion tecnologias */
+#tecnologias {
+  padding: 50px 100px;
+}
+#tecnologias h2{
+  font-family: Raleway_Bold;
+}
+
+/* Estilos seccion redes*/
+#redes{
+  height:75px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+#redes img{
+  width: 55px ;
+  height: 55px;
+}
+
+/*Estilos del Footer */
+footer{
+  padding: 50px;
+}
+footer .logo img{
+  width: 250px;
+  margin-bottom: 20px;
+}
+footer .logo p{
+  text-align: justify;
+}
+footer .row {
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .col ul{
+  list-style: none;
+  padding: 0px;
+}
+footer .col ul li{
+  margin-top: 12px;
+}
+footer a{
+  text-decoration: none;
+  color:white;
+}
+
+
+
+
